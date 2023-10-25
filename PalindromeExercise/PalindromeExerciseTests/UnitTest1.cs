@@ -9,7 +9,7 @@ namespace PalindromeExerciseTests
         [Theory]
         [InlineData("racecar", true)]
         [InlineData("hello", false) ]
-        [InlineData("RaceCar", false)]
+        [InlineData("RaceCar", true)]
 
 
         public void MyTest(string word, bool expected)
